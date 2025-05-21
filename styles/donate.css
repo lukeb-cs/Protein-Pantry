@@ -1,0 +1,9 @@
+#donate {
+    margin: auto;
+    width: 640px;
+    padding: 50px;
+    width: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

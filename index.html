@@ -1,0 +1,112 @@
+<!-- This is the homepage -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Protein Pantry</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/index.css">
+  <link rel="icon" href="https://fav.farm/%F0%9F%A5%A9">
+</head>
+
+<!-- Navbar to navigate through pages -->
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Protein Pantry</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="search.html">Search</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="history.html">History</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="list.html">Shopping List</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="donate.html">Donate</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <!-- Page headers -->
+    <h1 class="text-center">Protein Pantry</h1>
+    <h2 class="text-center">A Website for Healthy Culinary Ideas</h2>
+    <!-- Description of the website -->
+    <p class="centered-p">Protein Pantry is a student-made website created over the course of the JMU Fall 2025
+      semester. We encapsulate API datasets as well as responsive design mechanics in order to display dynamic data on
+      our webpage. We use both the <a href="https://spoonacular.com/food-api">Spoonacular API</a> as well as the <a
+        href="https://developers.giphy.com/">Giphy API</a> which are both open source and easy to access. Spoonacular
+      helps to retrieve recipe data pertaining to user-searched terms while Giphy uses the recipe information provided
+      to search for the most relevant GIF for a given recipe.</p>
+    <!-- Container holding images downloaded from the API and their descriptions -->
+    <div class="grid-container">
+      <div class="card">
+        <img src="pictures/chicken.jpg" class="card-img-top card-pics" alt="chicken dish from api">
+        <div class="card-body">
+          <p class="card-text">Boozy Bbq Chicken</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="pictures/pasta.jpg" class="card-img-top card-pics" alt="farfalle dish from api">
+        <div class="card-body">
+          <p class="card-text">Farfalle with Peas, Ham and Cream</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="pictures/kidney.jpg" class="card-img-top card-pics" alt="meat pie dish from api">
+        <div class="card-body">
+          <p class="card-text">Kidney Pie</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="pictures/soup.jpg" class="card-img-top card-pics" alt="curry dish from api">
+        <div class="card-body">
+          <p class="card-text">Singapore Curry</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="pictures/meat.jpg" class="card-img-top card-pics" alt="bean dish from api">
+        <div class="card-body">
+          <p class="card-text">Refried Beans with Chorizo</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="pictures/sauce.jpg" class="card-img-top card-pics" alt="chicken parm dish from api">
+        <div class="card-body">
+          <p class="card-text">Easy Baked Parmesan Chicken</p>
+        </div>
+      </div>
+      <!-- Link at the bottom of the page to download the blob for the site -->
+      <div class="card text-center" id="bottom">
+        <div class="card-footer text-body-secondary">
+          <a id="download-blob" class="btn btn-primary">Download Blob</a>
+          <button id="clear-button" type="button" class="btn btn-danger">Clear Data</button>
+          <a href="report.html" class="btn btn-danger">Report File</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="scripts/index.js"></script>
+</body>
+
+</html>

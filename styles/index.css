@@ -1,0 +1,8 @@
+.card-pics {
+    display: flex;
+    align-items: center;
+    padding: 5vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

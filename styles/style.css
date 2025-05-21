@@ -1,0 +1,117 @@
+/* anything that is a class or id in this file specifically formats a set of elements on the page with that class or id */
+/* anything else is just basic formatting to make the webpage appear less of a mess than it actually is */
+@media (min-width: 700px) {
+    .result-container {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, auto);
+        gap: 2vh;
+        margin: 2vh 2vw;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, auto);
+        gap: 2vh;
+        margin: 12vh 12vw;
+    }
+}
+
+.result-container {
+    display: grid;
+    gap: 2vh;
+    margin: 2vh 2vw;
+}
+
+.grid-container {
+    display: grid;
+    gap: 2vh;
+    margin: 12vh 12vw;
+}
+
+
+.card-pics {
+    display: flex;
+    align-items: center;
+    padding: 5vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centered-p {
+    text-align: center;
+}
+
+#bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+}
+
+#shopping-list {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+#donate {
+    margin: auto;
+    width: 640px;
+    padding: 50px;
+    width: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* specific crap to make cards and things look nice ^^^ */
+/* basic formatting and things (mentioned above)  vvv*/
+h1,
+h2 {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #204060;
+    padding: 50px;
+}
+
+h1 {
+    padding: 50px;
+}
+
+h2 {
+    padding: 30px;
+}
+
+p {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 18pt;
+    color: #204060;
+    padding: 50px;
+}
+
+body,
+main {
+    background-color: white;
+}
+
+/* if the user has dark mode on, change a couple colors around */
+@media (prefers-color-scheme: dark) {
+
+    body,
+    h1,
+    h2,
+    p,
+    main {
+        background-color: #204060;
+        color: white;
+    }
+
+    .card {
+        background: #336699;
+        color: white;
+    }
+}

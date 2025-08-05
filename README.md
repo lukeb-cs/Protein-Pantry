@@ -4,7 +4,7 @@
 
 ---
 
-## 🌐 Demo
+## Demo
 
 Below is a screenshot of the homepage:
 
@@ -16,12 +16,12 @@ Below is a screenshot of the homepage:
 
 ## Features
 
-- 🍗 Search for nutritional recipes using keywords
-- 🔎 Fetch nutritional data from the **Spoonacular API**
-- 🎬 Display relevant GIFs from **Giphy API**
-- 📝 Keep track of past searches with a search history
-- 🛒 Build and manage a shopping list
-- 💻 Fully responsive layout for desktop and mobile
+- Search for nutritional recipes using keywords
+- Fetch nutritional data from the **Spoonacular API**
+- Display relevant GIFs from **Giphy API**
+- Keep track of past searches with a search history
+- Build and manage a shopping list
+- Fully responsive layout for desktop and mobile
 
 ---
 

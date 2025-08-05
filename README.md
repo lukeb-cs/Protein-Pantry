@@ -2,7 +2,6 @@
 
 **Protein Pantry** is a student-built website created as part of the JMU Fall 2025 semester. It delivers healthy culinary ideas using real-time data from public APIs. The app features responsive design and dynamic content based on user input, focusing on high-protein meal suggestions.
 
----
 
 ## Demo
 
@@ -12,7 +11,6 @@ Below is a screenshot of the homepage:
 
 > You can clone the repo and open `index.html` in your browser to try it locally.
 
----
 
 ## Features
 
@@ -23,7 +21,6 @@ Below is a screenshot of the homepage:
 - Build and manage a shopping list
 - Fully responsive layout for desktop and mobile
 
----
 
 ## Technologies Used
 
@@ -33,4 +30,3 @@ Below is a screenshot of the homepage:
   - [Giphy API](https://developers.giphy.com/)
 - **No frameworks** — built using vanilla JS and DOM manipulation
 
----

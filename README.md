@@ -1,6 +1,6 @@
 # Protein‑Pantry
 
-**Protein‑Pantry** is a responsive web application built with **JavaScript**, **HTML**, and **CSS** that leverages public APIs to provide users with health‑focused nutritional information and recipe ideas :contentReference[oaicite:1]{index=1}.
+**Protein‑Pantry** is a responsive web application built with **JavaScript**, **HTML**, and **CSS** that leverages public APIs to provide users with health‑focused nutritional information and recipe ideas.
 
 ---
 

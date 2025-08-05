@@ -1,27 +1,36 @@
-# Protein‑Pantry
+# Protein Pantry
 
-**Protein‑Pantry** is a responsive web application built with **JavaScript**, **HTML**, and **CSS** that leverages public APIs to provide users with health‑focused nutritional information and recipe ideas.
+**Protein Pantry** is a student-built website created as part of the JMU Fall 2025 semester. It delivers healthy culinary ideas using real-time data from public APIs. The app features responsive design and dynamic content based on user input, focusing on high-protein meal suggestions.
 
 ---
 
-## 🌐 Demo  
-*(Add a live URL or screenshot here if available.)*
+## 🌐 Demo
+
+Below is a screenshot of the homepage:
+
+![Protein Pantry Screenshot](site.png)
+
+> You can clone the repo and open `index.html` in your browser to try it locally.
 
 ---
 
 ## Features
 
-- ✅ Search and view protein‑rich recipes or nutritional data  
-- 🔍 Query public APIs for ingredient health facts  
-- 📦 Clean, mobile‑friendly UI using vanilla JS/HTML/CSS  
-- 🎯 Designed for health-minded users and fitness enthusiasts
+- 🍗 Search for nutritional recipes using keywords
+- 🔎 Fetch nutritional data from the **Spoonacular API**
+- 🎬 Display relevant GIFs from **Giphy API**
+- 📝 Keep track of past searches with a search history
+- 🛒 Build and manage a shopping list
+- 💻 Fully responsive layout for desktop and mobile
 
 ---
 
 ## Technologies Used
 
-- **Frontend**: JavaScript, HTML5, CSS3  
-- **APIs**: Public nutritional/recipe APIs (e.g. Edamam, Spoonacular — update with specifics)  
-- **Bundling/Tools**: *(Insert if you use Webpack, Parcel, or toolchain)*
+- **Frontend**: HTML5, CSS3, JavaScript
+- **APIs**:
+  - [Spoonacular API](https://spoonacular.com/food-api)
+  - [Giphy API](https://developers.giphy.com/)
+- **No frameworks** — built using vanilla JS and DOM manipulation
 
 ---
